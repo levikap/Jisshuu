@@ -12,6 +12,8 @@
 		D31E651823254DA40097264B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31E651623254DA40097264B /* Main.storyboard */; };
 		D31E651A23254DA60097264B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31E651923254DA60097264B /* Assets.xcassets */; };
 		D31E651D23254DA60097264B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31E651B23254DA60097264B /* LaunchScreen.storyboard */; };
+		D31E652523254F110097264B /* JisshuuCustomInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31E652423254F110097264B /* JisshuuCustomInterface.xib */; };
+		D31E6527232550B90097264B /* JisshuuCustomInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31E6526232550B90097264B /* JisshuuCustomInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D31E651923254DA60097264B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D31E651C23254DA60097264B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D31E651E23254DA60097264B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31E652423254F110097264B /* JisshuuCustomInterface.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JisshuuCustomInterface.xib; sourceTree = "<group>"; };
+		D31E6526232550B90097264B /* JisshuuCustomInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JisshuuCustomInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				D31E651223254DA40097264B /* AppDelegate.swift */,
 				D31E651423254DA40097264B /* ViewController.swift */,
 				D31E651623254DA40097264B /* Main.storyboard */,
+				D31E652423254F110097264B /* JisshuuCustomInterface.xib */,
+				D31E6526232550B90097264B /* JisshuuCustomInterface.swift */,
 				D31E651923254DA60097264B /* Assets.xcassets */,
 				D31E651B23254DA60097264B /* LaunchScreen.storyboard */,
 				D31E651E23254DA60097264B /* Info.plist */,
@@ -124,6 +130,7 @@
 			files = (
 				D31E651D23254DA60097264B /* LaunchScreen.storyboard in Resources */,
 				D31E651A23254DA60097264B /* Assets.xcassets in Resources */,
+				D31E652523254F110097264B /* JisshuuCustomInterface.xib in Resources */,
 				D31E651823254DA40097264B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				D31E651523254DA40097264B /* ViewController.swift in Sources */,
 				D31E651323254DA40097264B /* AppDelegate.swift in Sources */,
+				D31E6527232550B90097264B /* JisshuuCustomInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
