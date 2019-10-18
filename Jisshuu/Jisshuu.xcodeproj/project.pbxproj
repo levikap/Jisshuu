@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D31E651323254DA40097264B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31E651223254DA40097264B /* AppDelegate.swift */; };
-		D31E651523254DA40097264B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31E651423254DA40097264B /* ViewController.swift */; };
-		D31E651823254DA40097264B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31E651623254DA40097264B /* Main.storyboard */; };
-		D31E651A23254DA60097264B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31E651923254DA60097264B /* Assets.xcassets */; };
-		D31E651D23254DA60097264B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31E651B23254DA60097264B /* LaunchScreen.storyboard */; };
-		D31E652523254F110097264B /* JisshuuCustomInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31E652423254F110097264B /* JisshuuCustomInterface.xib */; };
-		D31E6527232550B90097264B /* JisshuuCustomInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31E6526232550B90097264B /* JisshuuCustomInterface.swift */; };
+		D336F98E2359174900DCE256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336F98D2359174900DCE256 /* AppDelegate.swift */; };
+		D336F9902359174900DCE256 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336F98F2359174900DCE256 /* SceneDelegate.swift */; };
+		D336F9922359174900DCE256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336F9912359174900DCE256 /* ContentView.swift */; };
+		D336F9942359174C00DCE256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D336F9932359174C00DCE256 /* Assets.xcassets */; };
+		D336F9972359174C00DCE256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D336F9962359174C00DCE256 /* Preview Assets.xcassets */; };
+		D336F99A2359174C00DCE256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D336F9982359174C00DCE256 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D31E650F23254DA40097264B /* Jisshuu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jisshuu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D31E651223254DA40097264B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D31E651423254DA40097264B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D31E651723254DA40097264B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D31E651923254DA60097264B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D31E651C23254DA60097264B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D31E651E23254DA60097264B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D31E652423254F110097264B /* JisshuuCustomInterface.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JisshuuCustomInterface.xib; sourceTree = "<group>"; };
-		D31E6526232550B90097264B /* JisshuuCustomInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JisshuuCustomInterface.swift; sourceTree = "<group>"; };
+		D336F98A2359174900DCE256 /* Jisshuu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jisshuu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D336F98D2359174900DCE256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D336F98F2359174900DCE256 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D336F9912359174900DCE256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D336F9932359174C00DCE256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D336F9962359174C00DCE256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D336F9992359174C00DCE256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D336F99B2359174C00DCE256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D31E650C23254DA40097264B /* Frameworks */ = {
+		D336F9872359174900DCE256 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,47 +37,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D31E650623254DA40097264B = {
+		D336F9812359174900DCE256 = {
 			isa = PBXGroup;
 			children = (
-				D31E651123254DA40097264B /* Jisshuu */,
-				D31E651023254DA40097264B /* Products */,
+				D336F98C2359174900DCE256 /* Jisshuu */,
+				D336F98B2359174900DCE256 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D31E651023254DA40097264B /* Products */ = {
+		D336F98B2359174900DCE256 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D31E650F23254DA40097264B /* Jisshuu.app */,
+				D336F98A2359174900DCE256 /* Jisshuu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D31E651123254DA40097264B /* Jisshuu */ = {
+		D336F98C2359174900DCE256 /* Jisshuu */ = {
 			isa = PBXGroup;
 			children = (
-				D31E651223254DA40097264B /* AppDelegate.swift */,
-				D31E651423254DA40097264B /* ViewController.swift */,
-				D31E651623254DA40097264B /* Main.storyboard */,
-				D31E652423254F110097264B /* JisshuuCustomInterface.xib */,
-				D31E6526232550B90097264B /* JisshuuCustomInterface.swift */,
-				D31E651923254DA60097264B /* Assets.xcassets */,
-				D31E651B23254DA60097264B /* LaunchScreen.storyboard */,
-				D31E651E23254DA60097264B /* Info.plist */,
+				D336F98D2359174900DCE256 /* AppDelegate.swift */,
+				D336F98F2359174900DCE256 /* SceneDelegate.swift */,
+				D336F9912359174900DCE256 /* ContentView.swift */,
+				D336F9932359174C00DCE256 /* Assets.xcassets */,
+				D336F9982359174C00DCE256 /* LaunchScreen.storyboard */,
+				D336F99B2359174C00DCE256 /* Info.plist */,
+				D336F9952359174C00DCE256 /* Preview Content */,
 			);
 			path = Jisshuu;
+			sourceTree = "<group>";
+		};
+		D336F9952359174C00DCE256 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D336F9962359174C00DCE256 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D31E650E23254DA40097264B /* Jisshuu */ = {
+		D336F9892359174900DCE256 /* Jisshuu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D31E652123254DA60097264B /* Build configuration list for PBXNativeTarget "Jisshuu" */;
+			buildConfigurationList = D336F99E2359174C00DCE256 /* Build configuration list for PBXNativeTarget "Jisshuu" */;
 			buildPhases = (
-				D31E650B23254DA40097264B /* Sources */,
-				D31E650C23254DA40097264B /* Frameworks */,
-				D31E650D23254DA40097264B /* Resources */,
+				D336F9862359174900DCE256 /* Sources */,
+				D336F9872359174900DCE256 /* Frameworks */,
+				D336F9882359174900DCE256 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,25 +92,25 @@
 			);
 			name = Jisshuu;
 			productName = Jisshuu;
-			productReference = D31E650F23254DA40097264B /* Jisshuu.app */;
+			productReference = D336F98A2359174900DCE256 /* Jisshuu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D31E650723254DA40097264B /* Project object */ = {
+		D336F9822359174900DCE256 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Levi Kaplan";
 				TargetAttributes = {
-					D31E650E23254DA40097264B = {
-						CreatedOnToolsVersion = 10.3;
+					D336F9892359174900DCE256 = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = D31E650A23254DA40097264B /* Build configuration list for PBXProject "Jisshuu" */;
+			buildConfigurationList = D336F9852359174900DCE256 /* Build configuration list for PBXProject "Jisshuu" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +118,47 @@
 				en,
 				Base,
 			);
-			mainGroup = D31E650623254DA40097264B;
-			productRefGroup = D31E651023254DA40097264B /* Products */;
+			mainGroup = D336F9812359174900DCE256;
+			productRefGroup = D336F98B2359174900DCE256 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D31E650E23254DA40097264B /* Jisshuu */,
+				D336F9892359174900DCE256 /* Jisshuu */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D31E650D23254DA40097264B /* Resources */ = {
+		D336F9882359174900DCE256 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31E651D23254DA60097264B /* LaunchScreen.storyboard in Resources */,
-				D31E651A23254DA60097264B /* Assets.xcassets in Resources */,
-				D31E652523254F110097264B /* JisshuuCustomInterface.xib in Resources */,
-				D31E651823254DA40097264B /* Main.storyboard in Resources */,
+				D336F99A2359174C00DCE256 /* LaunchScreen.storyboard in Resources */,
+				D336F9972359174C00DCE256 /* Preview Assets.xcassets in Resources */,
+				D336F9942359174C00DCE256 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D31E650B23254DA40097264B /* Sources */ = {
+		D336F9862359174900DCE256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31E651523254DA40097264B /* ViewController.swift in Sources */,
-				D31E651323254DA40097264B /* AppDelegate.swift in Sources */,
-				D31E6527232550B90097264B /* JisshuuCustomInterface.swift in Sources */,
+				D336F98E2359174900DCE256 /* AppDelegate.swift in Sources */,
+				D336F9902359174900DCE256 /* SceneDelegate.swift in Sources */,
+				D336F9922359174900DCE256 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D31E651623254DA40097264B /* Main.storyboard */ = {
+		D336F9982359174C00DCE256 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D31E651723254DA40097264B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D31E651B23254DA60097264B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D31E651C23254DA60097264B /* Base */,
+				D336F9992359174C00DCE256 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D31E651F23254DA60097264B /* Debug */ = {
+		D336F99C2359174C00DCE256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +198,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -221,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -231,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		D31E652023254DA60097264B /* Release */ = {
+		D336F99D2359174C00DCE256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +258,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -276,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,12 +280,14 @@
 			};
 			name = Release;
 		};
-		D31E652223254DA60097264B /* Debug */ = {
+		D336F99F2359174C00DCE256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jisshuu/Preview Content\"";
 				DEVELOPMENT_TEAM = ML7XKE52XD;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Jisshuu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,12 +300,14 @@
 			};
 			name = Debug;
 		};
-		D31E652323254DA60097264B /* Release */ = {
+		D336F9A02359174C00DCE256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jisshuu/Preview Content\"";
 				DEVELOPMENT_TEAM = ML7XKE52XD;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Jisshuu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D31E650A23254DA40097264B /* Build configuration list for PBXProject "Jisshuu" */ = {
+		D336F9852359174900DCE256 /* Build configuration list for PBXProject "Jisshuu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D31E651F23254DA60097264B /* Debug */,
-				D31E652023254DA60097264B /* Release */,
+				D336F99C2359174C00DCE256 /* Debug */,
+				D336F99D2359174C00DCE256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D31E652123254DA60097264B /* Build configuration list for PBXNativeTarget "Jisshuu" */ = {
+		D336F99E2359174C00DCE256 /* Build configuration list for PBXNativeTarget "Jisshuu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D31E652223254DA60097264B /* Debug */,
-				D31E652323254DA60097264B /* Release */,
+				D336F99F2359174C00DCE256 /* Debug */,
+				D336F9A02359174C00DCE256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D31E650723254DA40097264B /* Project object */;
+	rootObject = D336F9822359174900DCE256 /* Project object */;
 }
